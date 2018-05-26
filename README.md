@@ -1,23 +1,19 @@
 # MiniNote
 
-[![Say thanks](https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg)](https://saythanks.io/to/n1try)
-
 A simple, self-hosted Markdown note-taking app built with [VueJS](https://vuejs.org), and [Express](http://expressjs.com).
 
 ![](https://i.imgur.com/Y9TFu6w.png)
 
-[![Buy me a coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoff.ee/n1try)
-
 ## Requirements
-* NodeJS >= 6.x
+* NodeJS >= 8.x
 
 ## How to run?
-1. `git clone https://github.com/n1try/mininote`
-2. In root directory: `npm install`
-3. And again in _mininote-frontend_ directory: `npm install`
+1. `git clone https://github.com/gaz492/mininote`
+2. In root directory: `yarn` or `npm install`
+3. And again in _mininote-frontend_ directory: `yarn` or `npm install`
 4. Adapt `config.js` to your needs (e.g. set web server port)
-5. In _mininote-frontend_ directory: `npm run build`
-6. In root directory: `npm start`
+5. In _mininote-frontend_ directory: `yarn build` or `npm run build`
+6. In root directory: `yarn start` or `npm start`
 
 ## Todo
 This project is still under development. The following features are about to be implemented. Feel free to contribute.
